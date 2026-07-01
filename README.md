@@ -4,6 +4,10 @@ Welcome! I'm Michael Pedersen, a Civil Engineer with over 25 years of experience
 
 I'm currently expanding my engineering career into Artificial Intelligence by developing practical computer vision applications for transportation infrastructure, utility coordination, and engineering decision support.
 
+## Resume
+
+📄 [Michael Pedersen Resume](resume/Michael_Pedersen_Resume.pdf)
+
 ---
 
 ## Current Project
