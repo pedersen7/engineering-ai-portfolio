@@ -1,1 +1,4 @@
-
+Problem: Detect utility infrastructure from field imagery.
+Version 1: Build the complete pipeline and establish a baseline.
+Version 2: Improve the dataset through class refinement and targeted data collection.
+Future: Integrate RAG and GIS to create an AI-assisted utility inspection system.
