@@ -3,8 +3,8 @@ Version 1: Build the complete pipeline and establish a baseline.
 Version 2: Improve the dataset through class refinement and targeted data collection.
 Future: Integrate RAG and GIS to create an AI-assisted utility inspection system.
 
-Utility AI Project – Current Status
-Version 1 Complete ✅
+**Utility AI Project – Current Status**  
+Version 1 Complete ✅  
 
 The first end-to-end object detection model has been successfully completed.
 
@@ -41,5 +41,3 @@ Collect approximately 400 additional annotations
 Improve class balance
 Evaluate on unseen field images
 Continue documenting model performance
-
-
