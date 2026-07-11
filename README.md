@@ -66,7 +66,7 @@ Version 2 in Progress
 
 ## About This Portfolio
 
-This repository serves as my professional AI portfolio and documents my learning journey as I combine decades of transportation engineering experience with modern AI technologies.
+This repository documents the ongoing development of an AI engineering project that combines transportation engineering expertise with modern computer vision techniques.
 
 Additional projects and technical documentation will be added over time.
 
