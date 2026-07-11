@@ -1,3 +1,4 @@
+
 # Engineering AI Portfolio
 
 Welcome! I'm Michael Pedersen, a Civil Engineer with over 25 years of experience delivering transportation and infrastructure projects across the United States and Australia.  
@@ -26,6 +27,16 @@ Current areas of development include:
 - GIS integration concepts
 
 The source code, datasets, and model development remain private while the project is under active development.
+
+This repository documents the ongoing development of an AI engineering project that combines transportation engineering expertise with modern computer vision techniques.
+
+Additional projects and technical documentation will be added over time.
+
+Field Images -:> Annotation -:> YOLO Training -:> Evaluation -:> Error Analysis -:> Dataset Improvement
+
+<img width="345" height="597" alt="Untitled" src="https://github.com/user-attachments/assets/619a06c4-c2af-492a-affd-5d95e679f88a" />
+
+_The workflow follows an iterative engineering process where model evaluation informs dataset refinement, resulting in progressively improved model performance._
 
 ---
 
@@ -61,29 +72,6 @@ Version 2 in Progress
 - Utility Coordination
 - Infrastructure Asset Management
 - Engineering Knowledge Systems
-
----
-
-## About This Portfolio
-
-This repository documents the ongoing development of an AI engineering project that combines transportation engineering expertise with modern computer vision techniques.
-
-Additional projects and technical documentation will be added over time.
-
-Field Images -:> Annotation -:> YOLO Training -:> Evaluation -:> Error Analysis -:> Dataset Improvement
-
----
-
-## Repository Structure
-
-docs/
-Project documentation, model evaluations, version history, and future development plans.
-
-images/
-Workflow diagrams, training results, and sample detections.
-
-README.md
-Project overview and current status.
 
 ---
 
@@ -131,18 +119,30 @@ Diverse viewpoints improved robustness.
 
 Future Roadmap
 
-Version 2
+**Version 2**
 
 ✔ Improve class balance
 ✔ Expand dataset
 ✔ Refine object taxonomy
 
-Future Development
+**Future Development**
 
 □ Mobile AI application
 □ Retrieval-Augmented Generation (RAG)
 □ GIS integration
 □ Infrastructure AI Assistant
 
+---
+
+## Repository Structure
+
+docs/
+Project documentation, model evaluations, version history, and future development plans.
+
+images/
+Workflow diagrams, training results, and sample detections.
+
+README.md
+Project overview and current status.
 
 
