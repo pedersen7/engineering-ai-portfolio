@@ -70,7 +70,7 @@ Version 1 Complete
 <tr>
 <td align="center">
 <b>Annotation</b><br>
-<img width="344" height="523" alt="Screenshot 2026-07-11 162946" src="https://github.com/user-attachments/assets/84062b95-abd7-4c03-8545-0c6a941a6679" />
+<img width="350" height="501" alt="Untitled" src="https://github.com/user-attachments/assets/b7e3c04b-a11b-47ce-90dc-c207afc90568" />
 </td>
 
 <td align="center">
