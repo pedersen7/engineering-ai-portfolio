@@ -151,22 +151,37 @@ Future Roadmap
 
 ## Repository Structure
 ```text
-engineering-ai-portfolio/
+Engineering-AI-Portfolio/
+│
+├── README.md                    # Project overview
+├── LICENSE
 │
 ├── docs/
-│   ├── Model evaluations
-│   ├── Version history
-│   └── Future development plans
+│   ├── Project_Overview.md
+│   ├── Dataset.md
+│   ├── Annotation_Process.md
+│   ├── Model_Training.md
+│   ├── Model_Evaluation.md
+│   ├── Version_History.md
+│   ├── Lessons_Learned.md
+│   ├── Roadmap.md
+│   └── Engineering_Decisions.md
 │
 ├── images/
-│   ├── Workflow diagrams
-│   ├── Training results
-│   └── Sample detections
+│   ├── workflow.png
+│   ├── annotation_example.png
+│   ├── training_results.png
+│   ├── confusion_matrix.png
+│   ├── sample_detection.png
+│   └── dataset_examples.png
 │
 ├── resume/
 │   └── Michael_Pedersen_Resume.pdf
 │
-└── README.md    _Project overview and current status_
-
+├── notebooks/
+│
+├── scripts/
+│
+└── .gitignore
 
 
