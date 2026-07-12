@@ -15,7 +15,7 @@ I'm currently expanding my engineering expertise into Artificial Intelligence by
 
 ### AI-Assisted Utility Asset Detection
 
-Designing and developing a computer vision application that detects and classifies transportation and utility infrastructure assets from field imagery.
+_This project explores the application of computer vision to automate the detection and classification of transportation and utility infrastructure assets from field imagery._
 
 Current areas of development include:
 
@@ -26,15 +26,15 @@ Current areas of development include:
 - Engineering workflow integration
 - GIS integration concepts
 
-The source code, datasets, and model development remain private while the project is under active development.
+The source code and datasets remain private while the project is under active development. Project documentation and development progress are shared through this repository.
 
 This repository documents the ongoing development of an AI engineering project that combines transportation engineering expertise with modern computer vision techniques.
 
 Additional projects and technical documentation will be added over time.
 
-Field Images -:> Annotation -:> YOLO Training -:> Evaluation -:> Error Analysis -:> Dataset Improvement
+Field Images -:> Annotation -:> YOLO Training -:> Evaluation -:> Performance Review -:> Dataset Improvement
 
-<img width="345" height="597" alt="Untitled" src="https://github.com/user-attachments/assets/619a06c4-c2af-492a-affd-5d95e679f88a" />
+<img width="258" height="447" alt="Untitled" src="https://github.com/user-attachments/assets/f4429273-19a5-4e78-85e3-d5e95d1fd19a" />
 
 _The workflow follows an iterative engineering process where model evaluation informs dataset refinement, resulting in progressively improved model performance._
 
@@ -44,74 +44,58 @@ _The workflow follows an iterative engineering process where model evaluation in
 
 Version 1 Complete
 
-Version 2 in Progress
-
----
-
-## Technologies
-
-- Python
-- Computer Vision
-- YOLO11
-- OpenCV
-- TensorFlow
-- Google Colab
-- Label Studio
-- Git
-- GitHub
-- VS Code
-
----
-
-## Professional Interests
-
-- Computer Vision
-- Artificial Intelligence
-- Transportation Engineering
-- GIS & Spatial Analysis
-- Utility Coordination
-- Infrastructure Asset Management
-- Engineering Knowledge Systems
-
----
-
-## Current Status
-
-Version 1 Complete
-
-• 270 field images
-• 772 annotated utility assets  
-• 34 original classes  
-• Initial YOLO11n model trained and evaluated
+- 270 field images
+- 772 annotated utility assets  
+- 34 original classes  
+- Initial YOLO11n model trained and evaluated
+- Baseline established for Version 2 improvements
 
 🚧 Version 2 In Progress
 
-• Dataset refinement
-• Class consolidation
-• Improved class balance
-• Additional field data collection
+- Dataset refinement
+- Class consolidation
+- Improved class balance
+- Additional field data collection
 
 ---
 
-## Current Results  
+## Project Gallery
 
-Version 1
+<table>
+<tr>
+<td align="center">
+<b>Annotation</b><br>
+<img width="344" height="523" alt="Screenshot 2026-07-11 162946" src="https://github.com/user-attachments/assets/84062b95-abd7-4c03-8545-0c6a941a6679" />
+</td>
 
-270 field images
-772 annotated utility assets
-34 original object classes
-YOLO11n transfer learning model trained
-Initial evaluation completed
-Baseline established for Version 2 improvements
+<td align="center">
+<b>Training Results</b><br>
+<img width="350" alt="Screenshot 2026-07-11 164540" src="https://github.com/user-attachments/assets/e5b66312-7290-422e-9074-06fedf414ae9" />
+</td>
+</tr>
+
+<tr>
+<td align="center">
+<b>Confusion Matrix</b><br>
+<img width="350" alt="Screenshot 2026-07-11 164656" src="https://github.com/user-attachments/assets/d8d7eb4f-2de0-4885-93bf-8b6e4eaf10ea" />
+</td>
+
+<td align="center">
+<b>Detection Example</b><br>
+<img width="344" height="523" alt="Screenshot 2026-07-11 162946" src="https://github.com/user-attachments/assets/84062b95-abd7-4c03-8545-0c6a941a6679" />
+</td>
+</tr>
+</table>
+
 
 ---
 
-## Lessons Learned
+## Lessons Learned from Version 1
 
-Data quality is more important than model size.  
-Class taxonomy significantly affects performance.  
-Extremely rare classes reduced model performance and will be consolidated in Version 2. 
-Diverse viewpoints improved robustness.  
+- **Data quality** proved more important than model size.
+- **Class taxonomy** significantly affected model performance.
+- **Rare classes** reduced model performance and will be consolidated.
+- **Image diversity** improved robustness.
 
 ---
 
@@ -134,15 +118,50 @@ Future Roadmap
 
 ---
 
+## Technologies
+
+- Python
+- YOLO11
+- TensorFlow
+- OpenCV
+- Label Studio
+- Google Colab
+- Git
+- GitHub
+- VS Code
+
+---
+
+## Professional Interests
+
+- Computer Vision
+- Artificial Intelligence
+- Transportation Engineering
+- GIS & Spatial Analysis
+- Utility Coordination
+- Infrastructure Asset Management
+- Engineering Knowledge Systems
+
+---
+
 ## Repository Structure
+```text
+engineering-ai-portfolio/
+│
+├── docs/
+│   ├── Model evaluations
+│   ├── Version history
+│   └── Future development plans
+│
+├── images/
+│   ├── Workflow diagrams
+│   ├── Training results
+│   └── Sample detections
+│
+├── resume/
+│   └── Michael_Pedersen_Resume.pdf
+│
+└── README.md    _Project overview and current status_
 
-docs/
-Project documentation, model evaluations, version history, and future development plans.
-
-images/
-Workflow diagrams, training results, and sample detections.
-
-README.md
-Project overview and current status.
 
 
