@@ -1,13 +1,18 @@
 
 # Engineering AI Portfolio
 
+**Location:** San Diego, California  
+**Background:** Civil Engineering | Transportation Infrastructure  
+**Experience:** 25+ Years  
+**Current Focus:** Computer Vision • AI • Engineering Knowledge Systems
+
 Welcome! I'm Michael Pedersen, a Civil Engineer with over 25 years of experience delivering transportation and infrastructure projects across the United States and Australia.  
 I'm currently expanding my engineering expertise into Artificial Intelligence by developing computer vision applications for transportation infrastructure, utility coordination, and engineering decision support.  
 
 ## Professional Links
 
--📄 [Resume](resume/Michael_Pedersen_Resume.pdf)  (PDF)
-- GitHUB
+📄 **Resume:** [Michael_Pedersen_Resume.pdf](resume/Michael_Pedersen_Resume.pdf)  (PDF)
+💼 **GitHub:** https://github.com/pedersen7
 
 ---
 
