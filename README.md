@@ -114,7 +114,7 @@ Future Roadmap
 ✔ Expand dataset
 ✔ Refine object taxonomy
 
-**Future Development**
+**Future Development / Project Vision**
 
 □ Mobile AI application
 □ Retrieval-Augmented Generation (RAG)
