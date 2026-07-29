@@ -117,6 +117,11 @@ Dataset Version 3 (In Progress)
 - **Rare classes** reduced model performance and will be consolidated.
 - **Image diversity** improved robustness.
 
+V1: Learn the entire workflow.
+V2: Build a much larger, cleaner dataset with better class definitions.
+V2.1: Improve the evaluation methodology by rebalancing the validation split.
+V3: Improve annotation quality and use model failures to drive new data collection.
+
 ---
 
 ## Improvements & Future Planning
