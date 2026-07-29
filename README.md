@@ -55,12 +55,23 @@ Version 1 Complete
 - Initial YOLO11n model trained and evaluated
 - Baseline established for Version 2 improvements
 
-🚧 Version 2 In Progress
+Version 2/2.1 Complete
 
-- Dataset refinement
+- Dataset refinement and better distribution on some features, like water valve lids
 - Class consolidation
-- Improved class balance
 - Additional field data collection
+- 
+
+Dataset Version 3 (In Progress)
+
+- Improvements since Version 2
+- Reviewed model predictions on an expanding unseen test set.
+- Corrected annotation inconsistencies in Label Studio.
+- Tightened bounding boxes to improve localization accuracy.
+- Added difficult utility examples identified through model evaluation.
+- Added background (negative) images containing similar non-target infrastructure (e.g., trolley/catenary infrastructure) to reduce false positives.
+- Improved labeling consistency between electrical, telecom, gas, water, and sewer assets.
+- Established a growing "Hard Test Set" for comparing future model versions.
 
 ---
 
@@ -113,6 +124,20 @@ Future Roadmap
 ✔ Improve class balance
 ✔ Expand dataset
 ✔ Refine object taxonomy
+
+Development Process
+
+Rather than simply collecting additional images, Version 3 is driven by failure analysis. New training images are selected based on systematic model errors, including:
+
+Water valve lids missed in asphalt
+Gas lids confused with sewer lids
+Telecom vs electrical vault confusion
+Transformer false positives
+Small utility assets in cluttered scenes
+Angled and partially occluded objects
+
+This iterative process allows each dataset revision to target specific weaknesses identified during evaluation.
+
 
 **Future Development / Project Vision**
 
