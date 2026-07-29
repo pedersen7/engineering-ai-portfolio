@@ -58,9 +58,13 @@ Version 1 Complete
 Version 2/2.1 Complete
 
 - Dataset refinement and better distribution on some features, like water valve lids
-- Class consolidation
+- Class consolidation, improved annotations, larger dataset
 - Additional field data collection
-- 
+- Simplified to 21 classes
+- Fine tuned model
+- Expanded unseen testing
+- 462 images, trained 369, valid 93 (395 objects), classes 21
+- Rebalanced, 462 images, trained 359, valid 103
 
 Dataset Version 3 (In Progress)
 
