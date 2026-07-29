@@ -147,6 +147,31 @@ Angled and partially occluded objects
 
 This iterative process allows each dataset revision to target specific weaknesses identified during evaluation.
 
+**Current V3 Plan**
+
+Changes include
+
+✔ tighter boxes
+
+✔ corrected accidental label changes
+
+✔ corrected telecom/electrical confusion
+
+✔ improved gas annotations
+
+✔ additional difficult images
+
+✔ additional water lids
+
+✔ additional gas lids
+
+✔ additional transformers
+
+✔ additional background (negative) images
+
+✔ larger hard test set
+
+
 
 **Future Development / Project Vision**
 
