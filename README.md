@@ -16,7 +16,26 @@ I'm currently expanding my engineering expertise into Artificial Intelligence by
 
 ---
 
+## Project Highlights
+
+- Developed a custom computer vision dataset for transportation and utility infrastructure.
+- Designed an iterative annotation and model improvement workflow using Label Studio and YOLO11.
+- Reduced the original 34-class taxonomy to a refined 21-class engineering dataset.
+- Implemented transfer learning and repeated model evaluation using Google Colab.
+- Established an independent field test methodology using unseen roadway imagery.
+- Applied transportation engineering domain knowledge to the development of AI-assisted infrastructure inspection workflows.
+
+## Why This Project?
+
+This project combines over 25 years of transportation engineering experience with modern computer vision techniques to explore how AI can assist engineers in locating and identifying utility infrastructure from ordinary field imagery.
+
+Rather than focusing solely on benchmark accuracy, the project emphasizes iterative dataset refinement, engineering judgment, and evaluation using independent real-world field images.
+
+---
+
 ## Current Project
+
+The objective is not only to maximize validation metrics, but to develop a practical engineering tool capable of reliable performance on previously unseen field imagery.
 
 ### AI-Assisted Utility Asset Detection
 
@@ -47,6 +66,23 @@ _The workflow follows an iterative engineering process where model evaluation in
 
 ## Current Status
 
+Version 3 Complete (Initial Release)
+
+Current focus has shifted from increasing validation metrics to improving
+real-world performance using an independent field test set.
+
+Recent achievements include:
+
+- Refined annotation consistency
+- Improved bounding box quality
+- Transfer learning from the best Version 2 model
+- Expanded dataset with difficult and negative examples
+- Established an independent unseen field test benchmark
+- Identified remaining challenges involving small, low-contrast utility assets
+
+The project now evaluates models using both standard validation metrics and an independent field test set, providing a more realistic assessment of real-world performance.
+
+
 Version 1 Complete
 
 - 270 field images
@@ -66,16 +102,17 @@ Version 2/2.1 Complete
 - 462 images, trained 369, valid 93 (395 objects), classes 21
 - Rebalanced, 462 images, trained 359, valid 103
 
-Dataset Version 3 (In Progress)
+---
 
-- Improvements since Version 2
-- Reviewed model predictions on an expanding unseen test set.
-- Corrected annotation inconsistencies in Label Studio.
-- Tightened bounding boxes to improve localization accuracy.
-- Added difficult utility examples identified through model evaluation.
-- Added background (negative) images containing similar non-target infrastructure (e.g., trolley/catenary infrastructure) to reduce false positives.
-- Improved labeling consistency between electrical, telecom, gas, water, and sewer assets.
-- Established a growing "Hard Test Set" for comparing future model versions.
+## Dataset Snapshot
+
+Current Development
+
+- 460+ field images
+- 21 infrastructure asset classes
+- 1,000+ manually annotated utility assets
+- Multiple dataset refinement cycles
+- Independent unseen field evaluation benchmark
 
 ---
 
@@ -110,76 +147,36 @@ Dataset Version 3 (In Progress)
 
 ---
 
-## Lessons Learned from Version 1
+## Engineering Lessons Learned
 
-- **Data quality** proved more important than model size.
-- **Class taxonomy** significantly affected model performance.
-- **Rare classes** reduced model performance and will be consolidated.
-- **Image diversity** improved robustness.
-
-V1: Learn the entire workflow.
-V2: Build a much larger, cleaner dataset with better class definitions.
-V2.1: Improve the evaluation methodology by rebalancing the validation split.
-V3: Improve annotation quality and use model failures to drive new data collection.
+- Dataset quality consistently produced larger improvements than increasing model complexity.
+- Consistent annotation standards were critical for reliable training.
+- Class taxonomy significantly affected detection performance.
+- Independent field testing revealed limitations not visible through validation metrics alone.
+- Model failures are now used to guide targeted dataset expansion.
 
 ---
 
-## Improvements & Future Planning
+## Future Roadmap
 
-Future Roadmap
+### Short Term
 
-**Version 2**
+- Continue targeted data collection
+- Expand hard test benchmark
+- Improve small-object detection
+- Additional model comparison studies
 
-✔ Improve class balance
-✔ Expand dataset
-✔ Refine object taxonomy
+### Medium Term
 
-Development Process
+- Mobile inference workflow
+- Retrieval-Augmented Generation (RAG)
+- GIS integration
 
-Rather than simply collecting additional images, Version 3 is driven by failure analysis. New training images are selected based on systematic model errors, including:
+### Long Term
 
-Water valve lids missed in asphalt
-Gas lids confused with sewer lids
-Telecom vs electrical vault confusion
-Transformer false positives
-Small utility assets in cluttered scenes
-Angled and partially occluded objects
-
-This iterative process allows each dataset revision to target specific weaknesses identified during evaluation.
-
-**Current V3 Plan**
-
-Changes include
-
-✔ tighter boxes
-
-✔ corrected accidental label changes
-
-✔ corrected telecom/electrical confusion
-
-✔ improved gas annotations
-
-✔ additional difficult images
-
-✔ additional water lids
-
-✔ additional gas lids
-
-✔ additional transformers
-
-✔ additional background (negative) images
-
-✔ larger hard test set
-
-
-
-**Future Development / Project Vision**
-
-□ Mobile AI application
-□ Retrieval-Augmented Generation (RAG)
-□ GIS integration
-□ Infrastructure AI Assistant
-
+- AI-assisted infrastructure inspection platform
+- Engineering knowledge assistant
+  
 ---
 
 ## Technologies
@@ -193,6 +190,12 @@ Changes include
 - Git
 - GitHub
 - VS Code
+
+- Computer Vision
+- Transfer Learning
+- Object Detection
+- Dataset Development
+- Model Evaluation
 
 ---
 
