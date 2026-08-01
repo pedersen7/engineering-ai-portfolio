@@ -58,6 +58,29 @@ Additional projects and technical documentation will be added over time.
 
 Field Images -:> Annotation -:> YOLO Training -:> Evaluation -:> Performance Review -:> Dataset Improvement
 
+Field Collection
+        │
+        ▼
+Image Annotation
+        │
+        ▼
+Dataset Refinement
+        │
+        ▼
+YOLO Training
+        │
+        ▼
+Validation Metrics
+        │
+        ▼
+Independent Field Testing
+        │
+        ▼
+Failure Analysis
+        │
+        ▼
+Targeted Dataset Improvements
+
 <img width="258" height="447" alt="Untitled" src="https://github.com/user-attachments/assets/f4429273-19a5-4e78-85e3-d5e95d1fd19a" />
 
 _The workflow follows an iterative engineering process where model evaluation informs dataset refinement, resulting in progressively improved model performance._
