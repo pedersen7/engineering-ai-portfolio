@@ -1,5 +1,5 @@
 
-# Engineering AI Portfolio
+# AI for Transportation & Infrastructure Engineering
 
 **Location:** San Diego, California  
 **Background:** Civil Engineering | Transportation Infrastructure  
@@ -14,6 +14,12 @@ I'm currently expanding my engineering expertise into Artificial Intelligence by
 📄 **Resume:** [Michael_Pedersen_Resume.pdf](resume/Michael_Pedersen_Resume.pdf)  (PDF)
 💼 **GitHub:** https://github.com/pedersen7
 
+## Current Research Areas
+
+- AI-assisted utility asset detection using computer vision
+- Engineering knowledge retrieval using Retrieval-Augmented Generation (RAG)
+- Practical AI workflows for transportation and infrastructure engineering
+
 ---
 
 ## Project Highlights
@@ -27,19 +33,17 @@ I'm currently expanding my engineering expertise into Artificial Intelligence by
 
 ## Why This Project?
 
-This project combines over 25 years of transportation engineering experience with modern computer vision techniques to explore how AI can assist engineers in locating and identifying utility infrastructure from ordinary field imagery.
-
-Rather than focusing solely on benchmark accuracy, the project emphasizes iterative dataset refinement, engineering judgment, and evaluation using independent real-world field images.
+This portfolio combines over 25 years of transportation engineering experience with modern Artificial Intelligence techniques. Current projects explore how computer vision and engineering knowledge systems can assist engineers with infrastructure inspection, utility coordination, and technical decision support.
 
 ---
 
-## Current Project
+## Featured Projects
 
-The objective is not only to maximize validation metrics, but to develop a practical engineering tool capable of reliable performance on previously unseen field imagery.
+### AI-Assisted Utility Asset Detection - Computer Vision
 
-### AI-Assisted Utility Asset Detection
+Detect and classify utility and transportation infrastructure from field imagery using YOLO.
 
-_This project explores the application of computer vision to automate the detection and classification of transportation and utility infrastructure assets from field imagery._
+This project explores the application of computer vision to automate the detection and classification of transportation and utility infrastructure assets from field imagery.
 
 Current areas of development include:
 
@@ -50,11 +54,9 @@ Current areas of development include:
 - Engineering workflow integration
 - GIS integration concepts
 
-The source code and datasets remain private while the project is under active development. Project documentation and development progress are shared through this repository.
-
-This repository documents the ongoing development of an AI engineering project that combines transportation engineering expertise with modern computer vision techniques.
-
-Additional projects and technical documentation will be added over time.
+Status:
+- Version 3 Complete
+- Version 4 Planning
 
 Field Images -:> Annotation -:> YOLO Training -:> Evaluation -:> Performance Review -:> Dataset Improvement
 
@@ -84,6 +86,23 @@ Targeted Dataset Improvements
 <img width="258" height="447" alt="Untitled" src="https://github.com/user-attachments/assets/f4429273-19a5-4e78-85e3-d5e95d1fd19a" />
 
 _The workflow follows an iterative engineering process where model evaluation informs dataset refinement, resulting in progressively improved model performance._
+
+---
+
+## Infrastructure Knowledge Assistant (RAG)
+
+Developing an engineering knowledge assistant using Retrieval-Augmented Generation (RAG) to help engineers navigate technical manuals, workflows, and engineering guidance.
+
+Current work includes:
+
+document retrieval
+vector databases
+engineering workflow integration
+evaluation using realistic engineering questions
+
+Status:
+
+Proof of concept
 
 ---
 
@@ -182,23 +201,21 @@ Current Development
 
 ## Future Roadmap
 
-### Short Term
+## AI-Assisted Utility Asset Detection
+- Improve difficult classes
+- Expand evaluation
+- V4
 
-- Continue targeted data collection
-- Expand hard test benchmark
-- Improve small-object detection
-- Additional model comparison studies
+## Infrastructure Knowledge Assistant
+- Engineering question library
+- Workflow integration
+- Additional manuals
+- Assistant prototype
 
-### Medium Term
-
-- Mobile inference workflow
-- Retrieval-Augmented Generation (RAG)
+## Future
+- Combine Computer Vision and RAG
+- Interactive Engineering Assistant
 - GIS integration
-
-### Long Term
-
-- AI-assisted infrastructure inspection platform
-- Engineering knowledge assistant
   
 ---
 
