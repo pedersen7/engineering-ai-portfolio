@@ -257,25 +257,22 @@ Current Development
 
 ---
 
-## Repository Structure
+## Portfolio Structure
 
+This repository provides an overview of my AI projects focused on transportation and infrastructure engineering.
+
+```text
 Engineering-AI-Portfolio/
 │
-├── README.md                    # Project overview
+├── README.md
 ├── LICENSE
 │
 ├── Infrastructure-RAG/
-│   ├── documents/
-│   ├── notebooks/
-│   ├── vector_db/
+│   ├── data/
+│   ├── README.md
 │   └── requirements.txt
 │
 └── Utility-AI/
-│   ├── docs/
-│   └── images/
-│
-├── resume/
-    └── Michael_Pedersen_Resume.pdf
-
-
+    ├── docs/
+    └── images/
 
