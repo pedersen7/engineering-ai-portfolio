@@ -266,6 +266,7 @@ Engineering-AI-Portfolio/
 │
 ├── README.md
 ├── LICENSE
+├── .gitignore
 │
 ├── Infrastructure-RAG/
 │   ├── data/
