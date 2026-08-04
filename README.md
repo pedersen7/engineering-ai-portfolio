@@ -258,38 +258,24 @@ Current Development
 ---
 
 ## Repository Structure
-```text
+
 Engineering-AI-Portfolio/
 │
 ├── README.md                    # Project overview
 ├── LICENSE
 │
-├── docs/
-│   ├── Project_Overview.md
-│   ├── Dataset.md
-│   ├── Annotation_Process.md
-│   ├── Model_Training.md
-│   ├── Model_Evaluation.md
-│   ├── Version_History.md
-│   ├── Lessons_Learned.md
-│   ├── Roadmap.md
-│   └── Engineering_Decisions.md
+├── Infrastructure-RAG/
+│   ├── documents/
+│   ├── notebooks/
+│   ├── vector_db/
+│   └── requirements.txt
 │
-├── images/
-│   ├── workflow.png
-│   ├── annotation_example.png
-│   ├── training_results.png
-│   ├── confusion_matrix.png
-│   ├── sample_detection.png
-│   └── dataset_examples.png
+└── Utility-AI/
+│   ├── docs/
+│   └── images/
 │
 ├── resume/
-│   └── Michael_Pedersen_Resume.pdf
-│
-├── notebooks/
-│
-├── scripts/
-│
-└── .gitignore
+    └── Michael_Pedersen_Resume.pdf
+
 
 
