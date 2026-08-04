@@ -1,0 +1,7 @@
+```text
+__pycache__/
+.ipynb_checkpoints/
+.env
+*.pt
+*.pth
+runs/
