@@ -9,6 +9,10 @@
 Welcome! I'm Michael Pedersen, a Civil Engineer with over 25 years of experience delivering transportation and infrastructure projects across the United States and Australia.  
 I'm currently expanding my engineering expertise into Artificial Intelligence by developing computer vision applications for transportation infrastructure, utility coordination, and engineering decision support.  
 
+# Vision
+
+To develop practical AI tools that assist transportation and infrastructure engineers by combining computer vision, engineering knowledge retrieval, and structured engineering workflows.
+
 ## Professional Links
 
 📄 **Resume:** [Michael_Pedersen_Resume.pdf](resume/Michael_Pedersen_Resume.pdf)  (PDF)
@@ -31,9 +35,11 @@ I'm currently expanding my engineering expertise into Artificial Intelligence by
 - Established an independent field test methodology using unseen roadway imagery.
 - Applied transportation engineering domain knowledge to the development of AI-assisted infrastructure inspection workflows.
 
-## Why This Project?
+## Why This Portfolio?
 
-This portfolio combines over 25 years of transportation engineering experience with modern Artificial Intelligence techniques. Current projects explore how computer vision and engineering knowledge systems can assist engineers with infrastructure inspection, utility coordination, and technical decision support.
+modern Artificial Intelligence techniques. Current projects explore how computer vision and engineering knowledge systems can assist engineers with infrastructure inspection, utility coordination, and technical decision support.
+
+Rather than focusing solely on benchmark accuracy, these projects emphasize practical engineering workflows, iterative improvement, and the application of AI to real-world transportation and infrastructure challenges.
 
 ---
 
@@ -54,7 +60,7 @@ Current areas of development include:
 - Engineering workflow integration
 - GIS integration concepts
 
-Status:
+**Status**
 - Version 3 Complete
 - Version 4 Planning
 
@@ -100,9 +106,9 @@ vector databases
 engineering workflow integration
 evaluation using realistic engineering questions
 
-Status:
+**Status**
 
-Proof of concept
+- Proof of concept
 
 ---
 
