@@ -1,279 +1,263 @@
-
 # AI for Transportation & Infrastructure Engineering
 
-**Location:** San Diego, California  
-**Background:** Civil Engineering | Transportation Infrastructure  
-**Experience:** 25+ Years  
-**Current Focus:** Computer Vision • AI • Engineering Knowledge Systems
+**Michael Pedersen**
+San Diego, California
+Civil Engineering | Transportation Infrastructure | Artificial Intelligence
 
-Welcome! I'm Michael Pedersen, a Civil Engineer with over 25 years of experience delivering transportation and infrastructure projects across the United States and Australia.  
-I'm currently expanding my engineering expertise into Artificial Intelligence by developing computer vision applications for transportation infrastructure, utility coordination, and engineering decision support.  
-
-# Vision
-
-To develop practical AI tools that assist transportation and infrastructure engineers by combining computer vision, engineering knowledge retrieval, and structured engineering workflows.
-
-## Professional Links
-
-📄 **Resume:** [Michael_Pedersen_Resume.pdf](resume/Michael_Pedersen_Resume.pdf)  (PDF)
-💼 **GitHub:** https://github.com/pedersen7
-
-## Current Research Areas
-
-- AI-assisted utility asset detection using computer vision
-- Engineering knowledge retrieval using Retrieval-Augmented Generation (RAG)
-- Practical AI workflows for transportation and infrastructure engineering
+**25+ years of engineering experience**
+**Current focus:** Computer Vision • Engineering Knowledge Systems • AI-Assisted Workflows
 
 ---
 
-## Project Highlights
+## About
 
-- Developed a custom computer vision dataset for transportation and utility infrastructure.
-- Designed an iterative annotation and model improvement workflow using Label Studio and YOLO11.
-- Reduced the original 34-class taxonomy to a refined 21-class engineering dataset.
-- Implemented transfer learning and repeated model evaluation using Google Colab.
-- Established an independent field test methodology using unseen roadway imagery.
-- Applied transportation engineering domain knowledge to the development of AI-assisted infrastructure inspection workflows.
+I am a Civil Engineer with more than 25 years of experience delivering transportation and infrastructure projects across the United States and Australia.
 
-## Why This Portfolio?
+I am now applying modern Artificial Intelligence and Machine Learning techniques to practical engineering problems, with a particular focus on transportation infrastructure, utility coordination, infrastructure inspection, and engineering knowledge systems.
 
-modern Artificial Intelligence techniques. Current projects explore how computer vision and engineering knowledge systems can assist engineers with infrastructure inspection, utility coordination, and technical decision support.
+This portfolio documents that work through working prototypes, experiments, evaluations, and lessons learned.
 
-Rather than focusing solely on benchmark accuracy, these projects emphasize practical engineering workflows, iterative improvement, and the application of AI to real-world transportation and infrastructure challenges.
+---
+
+## Vision
+
+To develop practical AI tools that can assist transportation and infrastructure engineers by combining:
+
+* Computer vision
+* Engineering knowledge retrieval
+* Structured engineering workflows
+* Domain-specific engineering knowledge
+* Human engineering judgment
+
+The objective is not to replace engineering judgment, but to explore how AI can make engineering information and workflows more accessible, consistent, and efficient.
 
 ---
 
 ## Featured Projects
 
-### AI-Assisted Utility Asset Detection - Computer Vision
+### AI-Assisted Utility Asset Detection
 
-Detect and classify utility and transportation infrastructure from field imagery using YOLO.
+**Computer Vision | YOLO | Infrastructure Inspection**
 
-This project explores the application of computer vision to automate the detection and classification of transportation and utility infrastructure assets from field imagery.
+A computer vision system for detecting and classifying transportation and utility infrastructure assets from field imagery.
 
-Current areas of development include:
+The project began with a 34-class dataset and evolved through multiple cycles of annotation refinement, class consolidation, dataset balancing, transfer learning, and independent field testing.
 
-- Custom dataset development
-- Image annotation using Label Studio
-- YOLO object detection
-- Model training and evaluation
-- Engineering workflow integration
-- GIS integration concepts
+**Current capabilities and research include:**
 
-**Status**
-- Version 3 Complete
-- Version 4 Planning
+* Custom infrastructure image dataset development
+* Image annotation using Label Studio
+* YOLO object detection
+* Transfer learning
+* Dataset refinement based on model failures
+* Independent field-image evaluation
+* Engineering interpretation of detection results
+* Exploration of GIS and infrastructure workflow integration
 
-Field Images -:> Annotation -:> YOLO Training -:> Evaluation -:> Performance Review -:> Dataset Improvement
+**Project status:** Active development
 
-Field Collection
-        │
-        ▼
-Image Annotation
-        │
-        ▼
-Dataset Refinement
-        │
-        ▼
-YOLO Training
-        │
-        ▼
-Validation Metrics
-        │
-        ▼
-Independent Field Testing
-        │
-        ▼
-Failure Analysis
-        │
-        ▼
-Targeted Dataset Improvements
-
-<img width="258" height="447" alt="Untitled" src="https://github.com/user-attachments/assets/f4429273-19a5-4e78-85e3-d5e95d1fd19a" />
-
-_The workflow follows an iterative engineering process where model evaluation informs dataset refinement, resulting in progressively improved model performance._
+[View the Utility AI project](utility-ai/)
 
 ---
 
-## Infrastructure Knowledge Assistant (RAG)
+### Infrastructure Knowledge Assistant
 
-Developing an engineering knowledge assistant using Retrieval-Augmented Generation (RAG) to help engineers navigate technical manuals, workflows, and engineering guidance.
+**Retrieval-Augmented Generation (RAG) | Engineering Knowledge Systems**
 
-Current work includes:
+A working prototype exploring how Retrieval-Augmented Generation can help engineers navigate technical manuals, engineering requirements, standard provisions, and structured engineering workflows.
 
-document retrieval
-vector databases
-engineering workflow integration
-evaluation using realistic engineering questions
+The system combines document retrieval, engineering-specific prompts, structured Standard Operating Procedures, and a Streamlit interface to provide context-aware engineering assistance.
 
-**Status**
+**Current capabilities include:**
 
-- Proof of concept
+* Semantic document retrieval using Chroma
+* Engineering document and manual retrieval
+* Retrieval evaluation using realistic engineering questions
+* Reranking experiments and retrieval diagnostics
+* Engineering-specific response instructions
+* Runtime selection of relevant engineering SOPs
+* Caltrans District context
+* Utility-owner context
+* Standard and specification lookup
+* Section 77 drafting workflow
+* Integration of engineering reference notes
+* Computer-vision / engineering workflow integration
+* Streamlit-based user interface
 
----
+The project emphasizes **traceable engineering information and appropriate use of source material**, rather than treating the language model as an independent source of engineering authority.
 
-## Current Status
+**Project status:** Working prototype / active development
 
-Version 3 Complete (Initial Release)
-
-Current focus has shifted from increasing validation metrics to improving
-real-world performance using an independent field test set.
-
-Recent achievements include:
-
-- Refined annotation consistency
-- Improved bounding box quality
-- Transfer learning from the best Version 2 model
-- Expanded dataset with difficult and negative examples
-- Established an independent unseen field test benchmark
-- Identified remaining challenges involving small, low-contrast utility assets
-
-The project now evaluates models using both standard validation metrics and an independent field test set, providing a more realistic assessment of real-world performance.
-
-
-Version 1 Complete
-
-- 270 field images
-- 772 annotated utility assets  
-- 34 original classes  
-- Initial YOLO11n model trained and evaluated
-- Baseline established for Version 2 improvements
-
-Version 2/2.1 Complete
-
-- Dataset refinement and better distribution on some features, like water valve lids
-- Class consolidation, improved annotations, larger dataset
-- Additional field data collection
-- Simplified to 21 classes
-- Fine tuned model
-- Expanded unseen testing
-- 462 images, trained 369, valid 93 (395 objects), classes 21
-- Rebalanced, 462 images, trained 359, valid 103
+[View the Infrastructure RAG project](infrastructure-RAG/)
 
 ---
 
-## Dataset Snapshot
+## Why This Work?
 
-Current Development
+Infrastructure engineering involves large amounts of technical information distributed across manuals, specifications, standard plans, procedures, project documents, and institutional knowledge.
 
-- 460+ field images
-- 21 infrastructure asset classes
-- 1,000+ manually annotated utility assets
-- Multiple dataset refinement cycles
-- Independent unseen field evaluation benchmark
+AI provides an opportunity to explore new ways of working with that information.
 
----
+These projects investigate two complementary approaches:
 
-## Project Gallery
+**Computer Vision**
 
-<table>
-<tr>
-<td align="center">
-<b>Annotation</b><br>
-<img width="350" height="501" alt="Untitled" src="https://github.com/user-attachments/assets/b7e3c04b-a11b-47ce-90dc-c207afc90568" />
-</td>
+> What can AI identify from infrastructure field imagery?
 
-<td align="center">
-<b>Training Results</b><br>
-<img width="350" alt="Screenshot 2026-07-11 164540" src="https://github.com/user-attachments/assets/e5b66312-7290-422e-9074-06fedf414ae9" />
-</td>
-</tr>
+**Engineering Knowledge Systems**
 
-<tr>
-<td align="center">
-<b>Confusion Matrix</b><br>
-<img width="350" alt="Screenshot 2026-07-11 164656" src="https://github.com/user-attachments/assets/d8d7eb4f-2de0-4885-93bf-8b6e4eaf10ea" />
-</td>
+> How can AI help engineers find, organize, and apply relevant technical information?
 
-<td align="center">
-<b>Detection Example</b><br>
-<img width="344" height="523" alt="Screenshot 2026-07-11 162946" src="https://github.com/user-attachments/assets/84062b95-abd7-4c03-8545-0c6a941a6679" />
-</td>
-</tr>
-</table>
-
+The longer-term goal is to explore how these capabilities could work together within practical engineering workflows.
 
 ---
 
 ## Engineering Lessons Learned
 
-- Dataset quality consistently produced larger improvements than increasing model complexity.
-- Consistent annotation standards were critical for reliable training.
-- Class taxonomy significantly affected detection performance.
-- Independent field testing revealed limitations not visible through validation metrics alone.
-- Model failures are now used to guide targeted dataset expansion.
+Several themes have emerged through the development of these projects.
+
+### Dataset quality matters
+
+Improving annotation consistency, bounding-box quality, class definitions, and difficult examples often produced more meaningful improvements than simply increasing model complexity.
+
+### Validation metrics are not enough
+
+Standard validation results can look encouraging while real-world field imagery exposes weaknesses that are not apparent in the training or validation datasets.
+
+Independent testing therefore became an important part of the development process.
+
+### Retrieval quality matters
+
+A RAG system can contain the correct engineering information and still fail to provide a useful answer if the relevant material is not retrieved.
+
+This led to experimentation with:
+
+* Query formulation
+* Retrieval vocabulary
+* Candidate expansion
+* Reranking
+* Diagnostic evaluation
+* Engineering-specific retrieval testing
+
+### Engineering context matters
+
+AI systems operating in engineering environments need more than general language capability.
+
+They need appropriate engineering context, source references, workflow awareness, and clear distinctions between documented requirements, alternatives, assumptions, and engineering judgment.
 
 ---
 
-## Future Roadmap
+## Current Research Areas
 
-## AI-Assisted Utility Asset Detection
-- Improve difficult classes
-- Expand evaluation
-- V4
-
-## Infrastructure Knowledge Assistant
-- Engineering question library
-- Workflow integration
-- Additional manuals
-- Assistant prototype
-
-## Future
-- Combine Computer Vision and RAG
-- Interactive Engineering Assistant
-- GIS integration
-  
----
-
-## Technologies
-
-- Python
-- YOLO11
-- TensorFlow
-- OpenCV
-- Label Studio
-- Google Colab
-- Git
-- GitHub
-- VS Code
-
-- Computer Vision
-- Transfer Learning
-- Object Detection
-- Dataset Development
-- Model Evaluation
+* AI-assisted utility and transportation asset detection
+* Engineering knowledge retrieval using RAG
+* Utility coordination workflows
+* Infrastructure inspection
+* Engineering document analysis
+* AI-assisted technical decision support
+* Computer vision and engineering knowledge-system integration
+* GIS and spatial-analysis concepts
 
 ---
 
-## Professional Interests
+## Technology
 
-- Computer Vision
-- Artificial Intelligence
-- Transportation Engineering
-- GIS & Spatial Analysis
-- Utility Coordination
-- Infrastructure Asset Management
-- Engineering Knowledge Systems
+**Artificial Intelligence / Machine Learning**
+
+* Python
+* YOLO
+* Computer Vision
+* Object Detection
+* Transfer Learning
+* Retrieval-Augmented Generation (RAG)
+* Large Language Models
+
+**Engineering / Data**
+
+* Transportation Engineering
+* Utility Engineering
+* Infrastructure Asset Management
+* GIS
+* Engineering Document Retrieval
+* Dataset Development
+* Model Evaluation
+
+**Development Tools**
+
+* Streamlit
+* LangChain
+* Chroma
+* Hugging Face
+* OpenCV
+* Label Studio
+* Google Colab
+* VS Code
+* Git / GitHub
 
 ---
 
 ## Portfolio Structure
 
-This repository provides an overview of my AI projects focused on transportation and infrastructure engineering.
-
 ```text
-Engineering-AI-Portfolio/
+engineering-ai-portfolio/
 │
 ├── README.md
-├── LICENSE
-├── .gitignore
 │
-├── Infrastructure-RAG/
-│   ├── data/
-│   ├── README.md
-│   └── requirements.txt
+├── infrastructure-RAG/
+│   ├── app.py
+│   ├── core_rag.py
+│   ├── prompts/
+│   ├── SOPs/
+│   ├── reference/
+│   ├── documents/
+│   ├── evaluation/
+│   └── ...
 │
-└── Utility-AI/
-    ├── docs/
-    └── images/
+├── utility-ai/
+│   ├── docs/
+│   ├── images/
+│   └── ...
+│
+├── notebooks/
+├── scripts/
+└── resume/
+```
 
+The portfolio provides the overall engineering and AI context, while each project contains its own technical documentation and development history.
+
+---
+
+## Future Direction
+
+Future development will explore the integration of computer vision and engineering knowledge systems into a unified infrastructure engineering workflow.
+
+Potential areas include:
+
+* Combining field-image asset detection with engineering knowledge retrieval
+* Expanding engineering workflow support
+* Additional infrastructure and utility standards
+* GIS integration
+* Improved retrieval and evaluation methods
+* Field-oriented engineering assistance
+
+The emphasis will remain on **practical engineering applications, transparent evaluation, and responsible use of AI**.
+
+---
+
+## Professional Background
+
+My professional background includes transportation engineering, utilities, environmental engineering, water resources, construction, project management, GIS, and infrastructure delivery.
+
+This engineering experience provides the domain context for the AI projects documented in this portfolio.
+
+📄 **Resume:** [Michael_Pedersen_Resume.pdf](resume/Michael_Pedersen_Resume.pdf)
+
+---
+
+## GitHub
+
+[View my GitHub projects](https://github.com/pedersen7)
+
+---
+
+*This portfolio documents ongoing independent exploration of Artificial Intelligence applied to transportation and infrastructure engineering.*
