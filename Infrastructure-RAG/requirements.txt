@@ -11,3 +11,8 @@ python-dotenv
 notebook
 jupyter
 google-generativeai
+ultralytics
+Pillow
+numpy
+opencv-python
+pandas
