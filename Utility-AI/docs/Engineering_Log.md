@@ -32,18 +32,3 @@ This separates visual evidence from engineering reasoning and allows recommendat
 
 ...
 
-# Engineering Decisions
-
-## Why YOLO11n?
-
-...
-
-## Why 34 Classes?
-
-...
-
-## Why Consolidate Classes for Version 2?
-
-...
-
-## Why Dataset Quality Was Prioritized Over Model Size?
