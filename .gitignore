@@ -7,3 +7,6 @@ runs/
 
 # Local vector databases
 vector_db*/
+
+# Private engineering material
+SOPs/
