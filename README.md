@@ -56,7 +56,7 @@ The project began with a 34-class dataset and evolved through multiple cycles of
 
 **Project status:** Active development
 
-[View the Utility AI project](utility-ai/)
+[View the Utility AI project](Utility-AI/)
 
 ---
 
@@ -88,7 +88,7 @@ The project emphasizes **traceable engineering information and appropriate use o
 
 **Project status:** Working prototype / active development
 
-[View the Infrastructure RAG project](infrastructure-RAG/)
+[View the Infrastructure RAG project](Infrastructure-RAG/)
 
 ---
 
@@ -203,26 +203,24 @@ engineering-ai-portfolio/
 │
 ├── README.md
 │
-├── infrastructure-RAG/
+├── Infrastructure-RAG/
+│   ├── data/
+│   ├── docs/
 │   ├── app.py
 │   ├── core_rag.py
-│   ├── prompts/
-│   ├── SOPs/
-│   ├── reference/
-│   ├── documents/
-│   ├── evaluation/
-│   └── ...
+│   ├── README.md
+│   └── requirements.txt
 │
-├── utility-ai/
+├── Utility-AI/
 │   ├── docs/
 │   ├── images/
-│   └── ...
+│   └── notebooks/
 │
 ├── notebooks/
 ├── scripts/
 └── resume/
 ```
-
+Private engineering manuals, SOPs, vector databases, model weights, prompts, and project-specific reference material are intentionally excluded from the public repository.
 The portfolio provides the overall engineering and AI context, while each project contains its own technical documentation and development history.
 
 ---
