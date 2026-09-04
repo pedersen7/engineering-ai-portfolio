@@ -33,47 +33,41 @@ The objective is not to replace engineering judgment, but to explore how AI can 
 
 ---
 
-## Featured Projects
+## Featured Project
 
-### AI-Assisted Utility Asset Detection
+### Caltrans Utility AI Assistant
 
-**Computer Vision | YOLO | Infrastructure Inspection**
+**Computer Vision | Engineering Knowledge Retrieval | AI-Assisted Engineering Workflows**
+
+The **Caltrans Utility AI Assistant** is an independently developed engineering AI prototype exploring how computer vision, engineering knowledge retrieval, and workflow-aware AI assistance can be combined to support transportation and utility engineering.
+
+The project brings together two complementary capabilities.
+
+### Utility-AI — Computer Vision
 
 A computer vision system for detecting and classifying transportation and utility infrastructure assets from field imagery.
 
-The project began with a 34-class dataset and evolved through multiple cycles of annotation refinement, class consolidation, dataset balancing, transfer learning, and independent field testing.
-
-**Current capabilities and research include:**
+Development includes:
 
 * Custom infrastructure image dataset development
 * Image annotation using Label Studio
 * YOLO object detection
 * Transfer learning
 * Dataset refinement based on model failures
+* Model evaluation and diagnostics
 * Independent field-image evaluation
 * Engineering interpretation of detection results
-* Exploration of GIS and infrastructure workflow integration
 
-**Project status:** Active development
+### Infrastructure-RAG — Engineering Knowledge
 
-[View the Utility AI project](Caltrans-Utility-AI-Assistant/Utility-AI/)
+A Retrieval-Augmented Generation system designed to help engineers locate and organize relevant information from engineering references and structured engineering workflows.
 
----
-
-### Infrastructure Knowledge Assistant
-
-**Retrieval-Augmented Generation (RAG) | Engineering Knowledge Systems**
-
-A working prototype exploring how Retrieval-Augmented Generation can help engineers navigate technical manuals, engineering requirements, standard provisions, and structured engineering workflows.
-
-The system combines document retrieval, engineering-specific prompts, structured Standard Operating Procedures, and a Streamlit interface to provide context-aware engineering assistance.
-
-**Current capabilities include:**
+Development includes:
 
 * Semantic document retrieval using Chroma
 * Engineering document and manual retrieval
 * Retrieval evaluation using realistic engineering questions
-* Reranking experiments and retrieval diagnostics
+* Cross-encoder reranking and retrieval diagnostics
 * Engineering-specific response instructions
 * Runtime selection of relevant engineering SOPs
 * Caltrans District context
@@ -81,14 +75,35 @@ The system combines document retrieval, engineering-specific prompts, structured
 * Standard and specification lookup
 * Section 77 drafting workflow
 * Integration of engineering reference notes
-* Computer-vision / engineering workflow integration
 * Streamlit-based user interface
 
-The project emphasizes **traceable engineering information and appropriate use of source material**, rather than treating the language model as an independent source of engineering authority.
+The two capabilities represent different stages of a potential engineering workflow:
 
-**Project status:** Working prototype / active development
+```text
+Field Information
+       ↓
+Computer Vision
+       ↓
+Identify Infrastructure Asset
+       ↓
+Engineering Context
+       ↓
+Knowledge Retrieval
+       ↓
+Engineering Analysis
+       ↓
+Human Review / Judgment
+```
 
-[View the Infrastructure RAG project](Infrastructure-RAG/)
+The longer-term concept is:
+
+> **See the infrastructure → identify the asset → retrieve relevant engineering knowledge → support the engineering workflow.**
+
+**Project status:** Active development
+
+**[Explore the Caltrans Utility AI Assistant](Caltrans-Utility-AI-Assistant/)**
+
+**[View the Project Presentation](Caltrans-Utility-AI-Assistant/presentation/Presentation.pdf)**
 
 ---
 
@@ -98,7 +113,7 @@ Infrastructure engineering involves large amounts of technical information distr
 
 AI provides an opportunity to explore new ways of working with that information.
 
-These projects investigate two complementary approaches:
+The Caltrans Utility AI Assistant investigates two complementary questions:
 
 **Computer Vision**
 
@@ -114,7 +129,7 @@ The longer-term goal is to explore how these capabilities could work together wi
 
 ## Engineering Lessons Learned
 
-Several themes have emerged through the development of these projects.
+Several themes have emerged through the development of the project.
 
 ### Dataset quality matters
 
@@ -203,31 +218,41 @@ engineering-ai-portfolio/
 │
 ├── README.md
 │
-├── Infrastructure-RAG/
-│   ├── data/
-│   ├── docs/
-│   ├── app.py
-│   ├── core_rag.py
+├── Caltrans-Utility-AI-Assistant/
 │   ├── README.md
-│   └── requirements.txt
+│   │
+│   ├── presentation/
+│   │   ├── README.md
+│   │   └── Presentation.pdf
+│   │
+│   ├── Utility-AI/
+│   │   ├── README.md
+│   │   ├── docs/
+│   │   ├── images/
+│   │   └── YOLO_Model_Evaluation/
+│   │
+│   └── Infrastructure-RAG/
+│       ├── README.md
+│       ├── docs/
+│       ├── app.py
+│       ├── core_rag.py
+│       └── requirements.txt
 │
-├── Utility-AI/
-│   ├── docs/
-│   ├── images/
-│   └── notebooks/
+├── resume/
 │
-├── notebooks/
-├── scripts/
-└── resume/
+├── .gitignore
+└── LICENSE
 ```
+
 Private engineering manuals, SOPs, vector databases, model weights, prompts, and project-specific reference material are intentionally excluded from the public repository.
-The portfolio provides the overall engineering and AI context, while each project contains its own technical documentation and development history.
+
+The portfolio provides the overall engineering and AI context, while the **Caltrans Utility AI Assistant** contains the detailed technical documentation and development history.
 
 ---
 
 ## Future Direction
 
-Future development will explore the integration of computer vision and engineering knowledge systems into a unified infrastructure engineering workflow.
+Future development will explore deeper integration of computer vision and engineering knowledge systems into a unified infrastructure engineering workflow.
 
 Potential areas include:
 
@@ -259,3 +284,4 @@ This engineering experience provides the domain context for the AI projects docu
 ---
 
 *This portfolio documents ongoing independent exploration of Artificial Intelligence applied to transportation and infrastructure engineering.*
+
