@@ -56,7 +56,7 @@ The project began with a 34-class dataset and evolved through multiple cycles of
 
 **Project status:** Active development
 
-[View the Utility AI project](Utility-AI/)
+[View the Utility AI project](Caltrans-Utility-AI-Assistant/Utility-AI/)
 
 ---
 
