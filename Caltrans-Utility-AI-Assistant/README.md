@@ -202,6 +202,7 @@ Potential future development includes:
 * Supplemental engineering guidance
 * Expanded engineering workflow support
 * Improved retrieval and evaluation methods
+* AI-assisted plan revision and utility impact analysis
 * Pavement and roadway condition detection
 * Multi-step engineering workflow orchestration
 
