@@ -257,6 +257,7 @@ Future development will explore deeper integration of computer vision and engine
 Potential areas include:
 
 * Combining field-image asset detection with engineering knowledge retrieval
+* AI-assisted plan revision and utility impact analysis
 * Expanding engineering workflow support
 * Additional infrastructure and utility standards
 * GIS integration
