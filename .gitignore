@@ -1,8 +1,17 @@
+# Python
 __pycache__/
+*.py[cod]
 .ipynb_checkpoints/
+
+# Environment / secrets
 .env
+.env.*
+
+# Machine learning model files
 *.pt
 *.pth
+
+# YOLO / training outputs
 runs/
 
 # Local vector databases
