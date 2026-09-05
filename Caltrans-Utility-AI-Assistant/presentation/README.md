@@ -14,7 +14,7 @@ The presentation describes the project's:
 
 ## Presentation
 
-**[View the Caltrans Utility AI Assistant Presentation](Presentation.pdf)**
+**[View the Caltrans Utility AI Assistant Presentation](presentation.pdf)**
 
 The presentation is intended as a concise introduction to the project and complements the more detailed technical documentation contained in the `Utility-AI` and `Infrastructure-RAG` folders.
 
