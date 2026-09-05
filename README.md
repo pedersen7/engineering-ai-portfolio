@@ -103,7 +103,7 @@ The longer-term concept is:
 
 **[Explore the Caltrans Utility AI Assistant](Caltrans-Utility-AI-Assistant/)**
 
-**[View the Project Presentation](Caltrans-Utility-AI-Assistant/presentation/Presentation.pdf)**
+**[View the Project Presentation](Caltrans-Utility-AI-Assistant/presentation/presentation.pdf)**
 
 ---
 
